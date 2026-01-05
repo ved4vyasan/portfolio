@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=JetBrains+Mono:wght@400;500;600&family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal-overlay"></div>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="cursor-blink">_</span>
+                <span class="username">root@v4n</span>
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">4BOUT</a>
+                <a href="#education" class="nav-link">3DUCATION</a>
+                <a href="#skills" class="nav-link">5KILLS</a>
+                <a href="#achievements" class="nav-link">4ACHIEVEMENTS</a>
+                <a href="#contact" class="nav-link">CONTAC8</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero">
+            <div class="container">
+                <div class="hero-card">
+                    <div class="hero-image-container">
+                        <div class="hero-image" id="hero-image">
+                            <span class="image-placeholder">👤</span>
+                        </div>
+                    </div>
+                    <div class="hero-text-content">
+                        <h1 class="hero-name" id="name-display"></h1>
+                        <p class="hero-bio" id="bio-display"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="bracket">[</span>
+                    <span class="title-text gradient-text">Education</span>
+                    <span class="bracket">]</span>
+                </h2>
+                <div class="education-grid" id="education-container"></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="bracket">[</span>
+                    <span class="title-text gradient-text">Skills</span>
+                    <span class="bracket">]</span>
+                </h2>
+                <div class="skills-container" id="skills-container"></div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="bracket">[</span>
+                    <span class="title-text gradient-text">Achievements</span>
+                    <span class="bracket">]</span>
+                </h2>
+                <div class="achievements-grid" id="achievements-container"></div>
+            </div>
+        </section>
+
+        <!-- Contact/Social Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="bracket">[</span>
+                    <span class="title-text gradient-text">Connect</span>
+                    <span class="bracket">]</span>
+                </h2>
+                <div class="social-links" id="social-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                <span class="prompt"></span>"Stay secure. Stay curious."
+            </p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
