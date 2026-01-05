@@ -9,7 +9,7 @@ const portfolioData = {
     // Education
     education: [
         {
-            degree: "BSc Computer Scienc",
+            degree: "BSc Computer Science",
             school: "College of Applied Science Kottarakkara",
             year: "2024 - 2027"
         },
@@ -68,4 +68,5 @@ const portfolioData = {
         // Add more social links here
     ]
 };
+
 
